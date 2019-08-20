@@ -8,7 +8,7 @@ sections:
   path: ''
   label: All
   create: all
-  match: "/"
+  match: "/*"
 - type: directory
   path: ''
   label: Direct
