@@ -2352,9 +2352,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-content h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 300;
   line-height: 1em;
+}
+
+.banner-content .site-title {
+  display: block;
+}
+
+.banner-content .site-description{
+  white-space:nowrap;
 }
 
 @media (max-width: 991.98px) {
