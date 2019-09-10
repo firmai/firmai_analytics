@@ -116,7 +116,7 @@ a, a:focus, a:hover {
   background: #f9f9ff;
 }
 
-h1, h2, h3,
+h1,h1b, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   color: #222222;
@@ -126,7 +126,7 @@ h4, h5, h6 {
   font-weight: 600;
 }
 
-.h1, .h2, .h3,
+.h1,.h1b, .h2, .h3,
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
@@ -136,7 +136,11 @@ h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 32px;
+  font-size: 34px;
+}
+
+h1b, .h1b {
+  font-size: 28px;
 }
 
 h2, .h2 {
@@ -809,11 +813,11 @@ h6 {
   font-size: 14px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,h1b, h2, h3, h4, h5, h6 {
   line-height: 1.5em;
 }
 
-.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+.typography h1, .typography h1b, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
   color: #777777;
 }
 
